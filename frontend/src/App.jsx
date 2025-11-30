@@ -139,8 +139,12 @@ export default function App() {
         .then((r) => r.json())
         .then((q) => {
           if (!q || q.error) return
+          // load quiz and ensure any previous submission state is cleared
           setCurrentQuiz(q)
           setDisplayQuiz(prepareDisplayQuiz(q))
+          setSubmitted(false)
+          setScore(null)
+          setAnswers({})
         })
         .catch(() => {})
     }
@@ -153,16 +157,24 @@ export default function App() {
         fetch(`http://localhost:4000/api/quizzes/${id}`)
           .then((r) => r.json())
           .then((q) => {
+            // load quiz into view and clear submission state
             setCurrentQuiz(q)
             setDisplayQuiz(prepareDisplayQuiz(q))
+            setSubmitted(false)
+            setScore(null)
+            setAnswers({})
           })
           .catch(() => {
             setCurrentQuiz(null)
             setDisplayQuiz(null)
           })
       } else {
+        // leaving quiz view — clear current quiz and submission state
         setCurrentQuiz(null)
         setDisplayQuiz(null)
+        setSubmitted(false)
+        setScore(null)
+        setAnswers({})
       }
     }
     window.addEventListener('popstate', onPop)
@@ -179,9 +191,12 @@ export default function App() {
       const url = `/quiz/${q.id}`
       window.history.pushState({}, '', url)
     }
+    // set quiz and ensure any previous submission/score/answers are cleared
     setCurrentQuiz(q)
     setDisplayQuiz(prepareDisplayQuiz(q))
     setAnswers({})
+    setSubmitted(false)
+    setScore(null)
   }
 
   function selectAnswer(qIndex, idx) {
