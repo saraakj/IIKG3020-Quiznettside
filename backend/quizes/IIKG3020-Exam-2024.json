@@ -1,0 +1,257 @@
+{
+  "id": "IIKG3020-Incident-Response-2024",
+  "title": "Eksamen IIKG3020 (2024) — Multiple Choice Questions (25 points)",
+  "description": "Multiple Choice Questions from the IIKG3020 exam 2024. Use for practice and self-testing.",
+  "questions": [
+    {
+      "question": "What comes second of these actions in the NIST incident response lifecycle",
+      "choices": [
+        "Detection and analysis",
+        "Preparation",
+        "Containment, eradication and recovery",
+        "Post-incident activity"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is the first and most important step that CERT/CC recommends when starting the process of implementing a CSIRT?",
+      "choices": [
+        "Determine the CSIRT strategic plan",
+        "Design the CSIRT vision",
+        "Gather relevant information",
+        "Obtain management support and buy-in"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "Which of these metrics would be the most relevant to report to upper management after a cyber incident?",
+      "choices": [
+        "Number of IDS alerts related to the detected incident",
+        "Number of person-hours diverted from normal operations to respond to the incident",
+        "Number of false positives diverting SOC personell from the incident",
+        "Number of SIEM threat hunting searches performed"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which TLP marking should be used for sharing information that should only be spread on a need-to-know basis within an organisation and its clients?",
+      "choices": [
+        "TLP Amber",
+        "TLP Red",
+        "TLP Green",
+        "TLP Amber + Strict"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is an example of an atomic indicator?",
+      "choices": [
+        "File hash",
+        "IP address",
+        "Regular expression",
+        "IDS rule"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "What would a CVSS score of 10.0 indicate?",
+      "choices": [
+        "This is a vulnerability of minor severity",
+        "This is a very critical vulnerability",
+        "This is a very common software security weakness",
+        "This is a zero-day vulnerability"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "What comes first of these in the Mandiant cyber attack life cycle?",
+      "choices": [
+        "Internal reconnaissance",
+        "Move laterally",
+        "Escalate privileges",
+        "Establish foothold"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "What is the main goal of intrusion reconstruction according to the intrusion kill chain model?",
+      "choices": [
+        "Reduce the number of steps the adversary must go through",
+        "Increase the adversarial courses of actions across the kill chain",
+        "Push detection from the latter phases of the kill chain into earlier ones",
+        "Move detection down the kill chain"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which of these indicators would cause the adversary the most amount of pain when you implement detection and response?",
+      "choices": [
+        "TTPs",
+        "Hash values",
+        "Domain names",
+        "IP addresses"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which of these strategies is typically used in threat hunting?",
+      "choices": [
+        "Deductive reasoning and hypothesis testing",
+        "Automated monitoring",
+        "IOC-driven analysis",
+        "Analysis driven by Al using ML"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which of these assumptions form the basis of the MITRE ATT&CK model?",
+      "choices": [
+        "Automated measuring of endpoint data gives telemetry that can not be distinguished from the typical background noise",
+        "Adversaries tend to exhibit consistent patterns of behaviour while interacting with victim systems",
+        "Defense gaps can be discovered by emulating the attacker pre-compromise behaviour",
+        "Pre-compromise operations can be modelled by observing the attacker interactions with endpoints"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "What is the distinction between a MITRE ATT&CK technique and an IOC?",
+      "choices": [
+        "IOCs are less dependent on specific malware or hacker tools",
+        "ATT&CK techniques cannot be used as input to intrusion detection signature",
+        "IOCs have less utility for defenders",
+        "Many ATT&CK techniques are legitimate system functions, while IOCs are typically associated with adversary actions"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "What should be the focus of the incident containment phase?",
+      "choices": [
+        "Detailed forensics analysis",
+        "Attacker attribution",
+        "Recovering control of the affected systems",
+        "Ransom payment strategy"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "What is STIX/TAXII?",
+      "choices": [
+        "A malware sharing platform",
+        "A tool to perform campaign analysis using the cyber kill chain model",
+        "An extensible XML schema developed by Mandiant",
+        "An industry standard for sharing IOCs"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "What is the most basic and foundational incident response capability in the hierarchy of needs?",
+      "choices": [
+        "Telemetry",
+        "Detection",
+        "Inventory",
+        "Triage"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "What is usually the purpose of tuning IDS alarms?",
+      "choices": [
+        "Minimise false negatives",
+        "Minimise true negatives",
+        "Minimise false positives",
+        "Minimise true positives"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "What type of IDPS is most likely to detect malware containing a zero-day exploit?",
+      "choices": [
+        "Automated response IDPS",
+        "Signature-based IDPS",
+        "Network-based IDPS",
+        "Anomaly-based IDPS"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "What is the least complex adversary tripwire type IDPS?",
+      "choices": [
+        "Honeynet",
+        "Honeytoken",
+        "Honeypot",
+        "Honeytrap"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "What type of IDPS presents a single pane of glass view for alert triage and management and automates response actions?",
+      "choices": [
+        "HIDS",
+        "SIEM",
+        "SOAR",
+        "NIDS"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which IOCs can typically be used for cross-pivoting when analysing malicious network infrastructure?",
+      "choices": [
+        "TTPs, File hashes and Regular expressions",
+        "IDS rules, File hashes and DLLs",
+        "Domain names, IP addresses and SSL certificates",
+        "Tools, Malware artefacts and TTPs"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "What is the purpose of threat intelligence forecasting?",
+      "choices": [
+        "Getting ahead of the attack lifecycle",
+        "Input to the root cause analysis",
+        "Getting ahead of the indicator life cycle",
+        "Responding after the point of compromise"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which of these is typically a host-based indicator?",
+      "choices": [
+        "Malware artefacts",
+        "Communication protocol",
+        "Domain name",
+        "Hosting provider"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is the most important step in the threat intelligence cycle?",
+      "choices": [
+        "Collection",
+        "Analysis and production",
+        "Dissemination",
+        "Planning and direction"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "What is an example of CSIRT reactive services?",
+      "choices": [
+        "Intrusion detection services",
+        "Technology watch",
+        "Vulnerability handling",
+        "Security audit or assessments"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which one of these claims related to legal frameworks for CSIRT information sharing is true?",
+      "choices": [
+        "IP addresses are not considered personal data according to GDPR",
+        "The NIS2 directive gives a stronger legal provision for CSIRT information sharing than GDPR",
+        "GDPR is not applicable to CSIRT information sharing",
+        "GDPR does not allow CSIRTs to share information containing personal data"
+      ],
+      "answerIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "IMT3004-Incident-Response-2020",
+  "title": "Eksamen IMT3004 (2020) — Multiple Choice Questions (10 points)",
+  "description": "Multiple Choice Questions from the IMT3004 exam 2020. Use for practice and self-testing.",
+  "questions": [
+    {
+      "question": "What should be done first in an organization that wants to start an incident response planning process?",
+      "choices": [
+        "Decide on the CSIRT organizational model",
+        "Develop an IR plan",
+        "Create IR procedures",
+        "Integrate the BIA"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "What comes first of these actions in the incident handling life cycle?",
+      "choices": [
+        "Vulnerability report",
+        "Obtain contact information",
+        "Incident analysis",
+        "Triage"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "Which TLP marking should be used for sharing information that requires support to be effectively acted upon, but carries risk to privacy, reputation, or operations if shared outside of the organizations involved?",
+      "choices": [
+        "TLP WHITE",
+        "TLP GREEN",
+        "TLP AMBER",
+        "TLP RED"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "What can organisations do to avoid becoming part of the problem and misused as reflectors in DDoS attacks on others?",
+      "choices": [
+        "Monitor BGP traffic to detect IP hijacking",
+        "Stress-test own infrastructure to determine bottle-necks",
+        "Scan for misconfigured, abusable services in own network",
+        "Monitor DDoS backscatter traffic in darknets"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "What is the most important step you can do to prepare to respond to a ransomware incident?",
+      "choices": [
+        "Coordinating with Internet Service Provider",
+        "User awareness programs",
+        "Maintain functional offline backups",
+        "Use antivirus software"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "How can passive DNS be used in incident response?",
+      "choices": [
+        "For threat hunting, pivoting indicators of compromise",
+        "For sharing of indicators between CSIRTs to implement better IDS signatures",
+        "For threat intelligence, learning the attackers TTPs",
+        "As a sandbox for dynamic malware analysis"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "In what phase in the intrusion kill chain model will a NIDPS usually detect an intrusion?",
+      "choices": [
+        "Reconnaissance",
+        "Weaponization",
+        "Installation",
+        "Command and Control"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "Under what circumstances does the GDPR allow CSIRTS to share indicators of compromise containing personal data?",
+      "choices": [
+        "Only if the indicators are properly anonymized",
+        "Domains and IP addresses can be shared, but no identifying information such as user names and email addresses",
+        "Only if the processing of data constitutes a legitimate interest of the data controller",
+        "GDPR prevents the possibility of sharing indicators containing personal data between CSIRTS"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "What is the distinction between an ATT&CK technique and an IOC?",
+      "choices": [
+        "Many of the ATT&CK techniques described are legitimate system functions, while IOCs are typically associated with adversary actions",
+        "ATT&CK techniques cannot be used as input to intrusion detection signatures",
+        "IOCs have less utility for defenders",
+        "IOCs are less dependent on specific malware or hacker tools"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is DETT&CT?",
+      "choices": [
+        "An update to ATT&CK, developed by MITRE",
+        "A framework assisting blue teams to map their detection coverage to ATT&CK techniques and tactics",
+        "A scoring system for implementation of ATT&CK IDS signatures",
+        "The red team version of ATT&CK"
+      ],
+      "answerIndex": 1
+    }
+  ]
+}

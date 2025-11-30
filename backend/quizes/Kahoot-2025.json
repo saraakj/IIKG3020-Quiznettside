@@ -1,0 +1,197 @@
+{
+  "id": "IIKG3020-Kahoot-2025",
+  "title": "Kahoot IIKG3020 (2025) — Multiple choice questions (19 points)",
+  "description": "Multiple Choice Questions from the wrap up kahoot in 2025. Use for practice and self-testing.",
+  "questions": [
+    {
+      "question": "Which of these actions is NOT a containment, eradication or recovery action?",
+      "choices": [
+        "reporting the incidentreporting the incident",
+        "removing malwareremoving malware",
+        "identify vulnerabilities that were exploitedidentify vulnerabilities that were exploited",
+        "confirm that the affected systems are functioning normally"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which of these CSIRT services is a proactive service?",
+      "choices": [
+        "vulnerability handlingvulnerability handling",
+        "technology watch",
+        "alerts and warningsalerts and warnings",
+        "artifact analysis"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "what is an example of an atomic indicator?",
+      "choices": [
+        "IP address",
+        "Hash value",
+        "IDS rule",
+        "Regular expression"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "in what phase in the intrusion kill chain model is antivirus a useful course of action?",
+      "choices": [
+        "Reconnaissance",
+        "Exploitation",
+        "Installation",
+        "Command and Control"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "which of these incident indicators is an example of a definite indicator of an incident?",
+      "choices": [
+        "Attack reported by a user",
+        "Notification from IDPS",
+        "Use of dormant accounts",
+        "Unusual system crashes"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "which of these threat intelligence categories is more detailed and most useful in the short term?",
+      "choices": [
+        "Strategic",
+        "Operational",
+        "Tactical",
+        "Technical"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "which of these threat actors has the highest sophistication and resource level?",
+      "choices": [
+        "Hacktivist",
+        "Crime syndicate",
+        "Nation state",
+        "Insider"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which command and control channel was most commonly used by APT1?",
+      "choices": [
+        "Encoded HTML comments",
+        "Watering hole attacks",
+        "Trojanized software downloads",
+        "Stenography"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "which of these indicators of compromise will cause the attacker most pain when you respond to it?",
+      "choices": [
+        "TTPs",
+        "Tools",
+        "Domain names",
+        "IP addresses"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "what comes first of these actions in the incident response life cycle?",
+      "choices": [
+        "Preparation",
+        "Detection and analysis",
+        "Containment, eradication and recovery",
+        "Post-incident activity"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which CSIRT organizational model describes a team that serves a constituency belonging to other organizations?",
+      "choices": [
+        "Internal distributed CSIRT",
+        "Internal centralized CSIRT",
+        "Internal combined distributed and centralized CSIRT",
+        "Coordinating CSIRT"
+        ],
+        "answerIndex": 3
+    },
+    {
+      "question": "What list maintained by MITRE describes common software security weakness types?",
+      "choices": [
+        "CWE",
+        "CVSS",
+        "CVS",
+        "CVE"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "which tool is used for monitoring files for unauthorized access?",
+      "choices": [
+        "Signature-based NIDPS",
+        "Anomaly-based NIDPS",
+        "Honeytokens",
+        "Network-based IDPS"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "What is at the base of the hierarchy of needs for IR?",
+      "choices": [
+        "Inventory",
+        "Telemetry",
+        "Detection",
+        "Triage"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "what is the most important step you can do to prepare to respond to a ransomware incident?",
+      "choices": [
+        "Coordinating with Internet Service Provider",
+        "User awareness programs",
+        "Use antivirus software",
+        "Maintain functional backups"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "How can passive DNS be used in incident response?",
+      "choices": [
+        "Discover associations among threat actors, track and block their activity",
+        "For sharing of indicators between CSIRTs to implement better IDS signatures",
+        "Anonymizing of IP addresses before uploading samples to Virus Total",
+        "As a sandbox for dynamic malware analysis"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "what is the goal for the defender when using the cyber kill chain model?",
+      "choices": [
+        "Stop the intrusion further down the kill chain",
+        "Implement courses of action right of hack",
+        "Move the detection and analysis up the kill chain",
+        "Stop the intrusion left of hack"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "What is the distinction between an ATT&CK technique and an IOC?",
+      "choices": [
+        "Many ATT&CK techniques are legitimate system functions, while IOCs are notMany ATT&CK techniques are legitimate system functions, while IOCs are not",
+        "ATT&CK techniques cannot be used as input to intrusion detection signatures",
+        "IOCs have less utility for defenders",
+        "IOCs are less dependent on specific malware or hacker tools"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is DETT&CT?",
+      "choices": [
+        "An update to ATT&CK, developed by MITRE",
+        "A framework assisting blue teams to map their detection coverage to ATT&CK",
+        "A scoring system for implementation of ATT&CK IDS signatures",
+        "The red team version of ATT&CK"
+      ],
+      "answerIndex": 1
+    }
+  ]
+}

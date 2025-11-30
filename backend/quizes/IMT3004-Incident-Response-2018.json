@@ -1,0 +1,167 @@
+{
+  "id": "IMT3004-Incident-Response-2018",
+  "title": "Eksamen IMT3004 (2018) — Multiple Choice Questions (16 points)",
+  "description": "Utvalgte flervalgsoppgaver fra IMT3004-eksamenen 2018. Bruk til øving og selvtesting.",
+  "questions": [
+    {
+      "question": "What comes first of these actions in the incident handling life cycle?",
+      "choices": [
+        "Vulnerability report",
+        "Obtain contact information",
+        "Incident analysis",
+        "Triage"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "What should be the first step when building a CSIRT?",
+      "choices": [
+        "Determine the CSIRT strategic plan",
+        "Gather relevant information",
+        "Obtain management support and buy-in",
+        "Design the CSIRT vision"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "What initial attack vector was used in the 2015 attack on the Ukrainian power grid?",
+      "choices": [
+        "Spear phishing",
+        "Watering hole",
+        "Physical access",
+        "Embedded device 0day"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which malware caused $300,000,000 in damages to the shipping company Maersk?",
+      "choices": [
+        "Wannacry",
+        "Notpetya",
+        "Cryptolocker",
+        "Stuxnet"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which CSIRT organizational model usually has the most diverse constituency?",
+      "choices": [
+        "Internal distributed CSIRT",
+        "Internal centralized CSIRT",
+        "Internal combined distributed and centralized CSIRT",
+        "Coordinating CSIRT"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "Which of these CSIRT services is a proactive service?",
+      "choices": [
+        "Technology watch",
+        "Vulnerability handling",
+        "Artifact handling",
+        "Incident handling"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What standard maintained by FIRST (Forum of Incident Response and Security Teams) calculates a numerical scoring of the severity of a specific vulnerability",
+      "choices": [
+        "CWE",
+        "CVSS",
+        "CVS",
+        "CVE"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which TLP marking should be used for sharing information that recipients may only share within their organization on a need to know basis?",
+      "choices": [
+        "TLP WHITE",
+        "TLP GREEN",
+        "TLP AMBER",
+        "TLP RED"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which of these incident indicators is an example of a definite indicator of an actual incident?",
+      "choices": [
+        "Notification from IDS",
+        "Presence of unfamiliar files",
+        "Unusual system crashes",
+        "Notification by partner or peer"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "What data collection activity creates the largest amount of data to analyze?",
+      "choices": [
+        "NIDPS",
+        "NetFlow records",
+        "Full-session PCAP",
+        "Audit logs"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": " Which intrusion detection approach is best for detecting new types of attacks?",
+      "choices": [
+        "Signature-based NIDPS",
+        "Anomaly-based NIDPS",
+        "Honeytokens",
+        "Host-based IDPS"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "What is the most important step you can do to prepare to respond to a DDoS incident?",
+      "choices": [
+        "Coordinating with Internet Service Provider",
+        "Deploy anti-spoofing on network edges",
+        "Maintain functional backups",
+        "Scan for misconfigured network devices"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which of these is a common DDoS reflection and amplification vector?",
+      "choices": [
+        "HTTP",
+        "ICMP",
+        "DNS",
+        "TCP"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "What is an example of an atomic indicator?",
+      "choices": [
+        "Hash value",
+        "IDS rule",
+        "Regular expression",
+        "Domain name"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "In what phase in the intrusion kill chain model will a NIDPS usually detect an intrusion?",
+      "choices": [
+        "Reconnaissance",
+        "Exploitation",
+        "Installation",
+        "Command and Control"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "Which of these tools is used for sharing indicators between CSIRTs?",
+      "choices": [
+        "DNSDB",
+        "Splunk",
+        "MISP",
+        "Virus Total"
+      ],
+      "answerIndex": 2
+    }
+  ]
+}

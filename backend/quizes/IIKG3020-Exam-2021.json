@@ -1,0 +1,457 @@
+{
+  "id": "IIKG3020-Incident-Response-2021",
+  "title": "Eksamen IIKG3020 (2021) — Multiple Choice Questions (45 points)",
+  "description": "Multiple Choice Questions from the IIKG3020 exam 2021. Use for practice and self-testing.",
+  "questions": [
+    {
+      "question": "In the current cyber threat landscape, which threat actor category has the highest sophistication, resource level and commitment?",
+      "choices": [
+        "Nation states",
+        "Hacktivists",
+        "Cyber terrorists",
+        "Crime-syndicates"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which botnet was behind the DDoS attack against Dyn in 2016?",
+      "choices": [
+        "Mirai: A botnet consisting of IoT devices with hardcoded usernames and passwords",
+        "Emotet: A banking trojan botnet",
+        "Mariposa: A botnet based on the Palevo worm spreading through pirated software, P2P networks and USB thumb drives",
+        "ZeuS: A botnet spread through massive phishing campaigns"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What are the most commonly observed attack vectors for volumetric DDoS attacks in the current threat landscape?",
+      "choices": [
+        "UDP reflection amplification attacks",
+        "TCP reflection amplification attacks",
+        "Ping (ICMP) flood attacks",
+        "HTTP flood attacks"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What comes first in the incident response planning process?",
+      "choices": [
+        "Develop incident response plan",
+        "Create incident response strategies and procedures",
+        "Organize the CSIRT",
+        "Develop incident response planning policy"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "Which CSIRT organizational model is most commonly found in smaller organisations?",
+      "choices": [
+        "Internal distributed CSIRT",
+        "Internal centralized CSIRT",
+        "Internal combined distributed and centralized CSIRT",
+        "Coordinating CSIRT"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which of these CSIRT services is a proactive service?",
+      "choices": [
+        "Incident handling",
+        "Vulnerability handling",
+        "Intrusion detection",
+        "Artifact handling"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which of these CSIRT services is a reactive service?",
+      "choices": [
+        "Incident handling",
+        "Technology Watch",
+        "Intrusion detection",
+        "Security audits"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which standard maintained by FIRST specifies a scoring system for rating the severity of vulnerabilities?",
+      "choices": [
+        "CWE",
+        "CVSS",
+        "CVS",
+        "CVE"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which TLP marking should be used for sharing information that requires support to be effectively acted upon, but carries risk to privacy, reputation, or operations if shared outside of the organizations involved?",
+      "choices": [
+        "TLP WHITE",
+        "TLP GREEN",
+        "TLP AMBER",
+        "TLP RED"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which of these incident indicators is an example of a definite indicator of an actual incident?",
+      "choices": [
+        "Notification from IDS",
+        "Presence of unfamiliar files",
+        "Unusual system crashes",
+        "Presence of hacker tools"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "Which intrusion detection approach is best for detecting malware infections using encrypted channels for command and control?",
+      "choices": [
+        "Signature-based NIDPS",
+        "Anomaly-based NIDPS",
+        "Host-based IDPS",
+        "Network-based IDPS"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "How can passive DNS be used in incident response?",
+      "choices": [
+        "For threat hunting, pivoting indicators of compromise",
+        "For sharing of indicators between CSIRTs to implement better IDS signatures",
+        "For threat intelligence, learning the attackers TTPs",
+        "As a sandbox for dynamic malware analysis"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which of these indicators of malicious code indicates a possible ransomware infection?",
+      "choices": [
+        "Sudden increase in the number of e-mails being sent",
+        "Unexpected dialog boxes requesting permission to do something",
+        "Suspicious processes renaming and encrypting files",
+        "New icons appearing on the desktop"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "In what phase in the intrusion kill chain model is antivirus a useful course of action?",
+      "choices": [
+        "Reconnaissance",
+        "Exploitation",
+        "Installation",
+        "Command and control"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which of these is a typical infection vector for APT malware?",
+      "choices": [
+        "Malvertizing",
+        "Spear phishing",
+        "Banking trojans",
+        "Spam"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which of these decoys require the least amount of data monitoring?",
+      "choices": [
+        "Honeypot",
+        "Honeynet",
+        "Honeypot farm",
+        "Honeytoken"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "Which of these tools is used for sharing of indicators of compromise between CSIRTS?",
+      "choices": [
+        "DNSDB",
+        "MISP",
+        "Virus Total",
+        "Passive DNS"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which of these actions is NOT a containment, eradication or recovery action?",
+      "choices": [
+        "Determine whether an incident has occurred",
+        "Removing malware",
+        "Identify vulnerabilities that were exploited",
+        "Confirm that the affected systems are functioning normally"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "In what phase in the intrusion kill chain model is data execution prevention (DEP) a useful course of action?",
+      "choices": [
+        "Reconnaissance",
+        "Exploitation",
+        "Installation",
+        "Command and control"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "What type of incident response plan testing requires the least time and resources?",
+      "choices": [
+        "Capture the flag",
+        "Major joint exercise",
+        "Live technical exercise in a cyber range",
+        "Tabletop exercise"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "What comes first of these steps in the incident handling workflow?",
+      "choices": [
+        "Triage",
+        "Data analysis",
+        "Eradication and recovery",
+        "Improvement proposals"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Who should be on top of the list of who to communicate with in a ransomware incident?",
+      "choices": [
+        "Internet Service Provider",
+        "Other incident response teams",
+        "Law enforcement agencies",
+        "Customers, constituents and media"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "Who should be on top of the list of who to communicate with in a DDoS incident?",
+      "choices": [
+        "Internet Service Provider",
+        "Other incident response teams",
+        "Law enforcement agencies",
+        "Customers, constituents and media"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What would a CVSS score of 10.0 indicate?",
+      "choices": [
+        "This is a very critical vulnerability",
+        "This is a vulnerability of minor severity",
+        "This is a very common software security weakness",
+        "This is a zero-day vulnerability"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What framework describes a standardized process for the disclosure of vulnerabilities?",
+      "choices": [
+        "Ethical vulnerability disclosure process",
+        "Responsible vulnerability disclosure process",
+        "Coordinated vulnerability disclosure process",
+        "Full disclosure process"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "What tool would be most helpful for static malware analysis?",
+      "choices": [
+        "Reverse engineering tools",
+        "Network intrusion detection systems",
+        "Network packet sniffers",
+        "Honeytoken files"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What tool would be most helpful for dynamic malware analysis?",
+      "choices": [
+        "Reverse engineering tools",
+        "Sandboxing tools",
+        "Honeypots",
+        "Passive DNS"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which of these measures do you think would be the best performance indicator for measuring CSIRT effectiveness?",
+      "choices": [
+        "Number of incidents reported per year",
+        "Average time for incident resolution",
+        "Staff turnover numbers",
+        "Number of hours spent on resolving incidents per team member per year"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "When evaluating an intrusion detection system (IDS), which of these would you prefer?",
+      "choices": [
+        "An IDS with few false positives and many false negatives",
+        "An IDS with many false positives and few false negatives",
+        "An IDS with few false positives and few false negatives",
+        "An IDS with many false positives and many false negatives"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "What can organisations do to avoid becoming part of the problem and misused as reflectors in DDoS attacks on others?",
+      "choices": [
+        "Monitor BGP traffic to detect IP hijacking",
+        "Stress-test own infrastructure to determine bottle-necks",
+        "Scan for misconfigured, abusable services in own network",
+        "Monitor DDoS backscatter traffic in darknets"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which of these acronyms represent the newest type of detection and response tools?",
+      "choices": [
+        "SIEM",
+        "SOAR",
+        "MDR",
+        "XDR"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "What does \"dwell time\" refer to?",
+      "choices": [
+        "The average amount of time it takes for an incident handler to resolve an incident",
+        "The average amount of time an attacker spends in the reconnaissance phase before getting initial access to a system",
+        "The average amount of time an IoT device is part of a DDoS botnet before it gets cleaned up",
+        "The average amount of time an APT threat actor spends inside a system before they get detected by incident responders"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "What comes last of these in the cyber attack life cycle?",
+      "choices": [
+        "Internal Recon",
+        "Move laterally",
+        "Establish foothold",
+        "Escalate privileges"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "What TLP level would you use when sharing indicators of compromise in a digital espionage incident involving nation-state threat actors?",
+      "choices": [
+        "TLP white",
+        "TLP red",
+        "TLP amber",
+        "TLP green"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which of these is the most important when performing computer forensics?",
+      "choices": [
+        "Maintaining the chain of custody of any evidence",
+        "Following the cyber kill chain methodology",
+        "Using the ATT&CK framework",
+        "Calculating CVSS scores"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is the definition of a zero-day vulnerability?",
+      "choices": [
+        "A vulnerability that does not have a proof-of-concept exploit available",
+        "A vulnerability that has not yet been announced to the public",
+        "A vulnerability that is publicly known, but has not got a patch available",
+        "A vulnerability that is currently exploited \"in the wild\""
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which one of these claims related to legal frameworks for CSIRT information sharing is true?",
+      "choices": [
+        "GDPR does not allow CSIRTS to share information containing personal data",
+        "The draft of NIS2D gives a weaker legal provision for CSIRT information sharing than GDPR",
+        "CSIRTs are encouraged to share information for the purposes of ensuring network and information security as long as it is performed within their legitimate interest",
+        "GDPR is not applicable to CSIRT information sharing"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "What is the main advantage of using an intelligence feedback loop in computer network defense?",
+      "choices": [
+        "It enables defenders to establish a state of information superiority",
+        "It increases the adversary's likelihood of success with each subsequent intrusion attempt",
+        "It helps defenders fixing the flaws that resulted in the compromise by root cause analysis",
+        "It increases the defender's likelihood of discovering new vulnerabilities in their own systems with each subsequent intrusion attempt"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which one of these claims about ATT&CK is true?",
+      "choices": [
+        "ATT&CK is a kind of Wikipedia on cyberattacks with a focus on indicators that are on top of the \"Pyramid of Pain\"",
+        "ATT&CK is a kind of Wikipedia of Indicators of Compromise",
+        "ATT&CK includes all levels of the \"Pyramid of Pain\"",
+        "ATT&CK describes all actions an adversary takes before the point of compromise"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is DETT&CT?",
+      "choices": [
+        "An update to ATT&CK developed by MITRE",
+        "A framework assisting blue teams to map their detection coverage to ATT&CK",
+        "A scoring system for implementation of ATT&CK IDS signatures",
+        "The red team version of ATT&CK"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "What is the advantage of intrusion reconstruction using the cyber kill chain from the defender's point of view?",
+      "choices": [
+        "It enables the defenders to move their detection and analysis to the latter phases of the kill chain",
+        "It enables defenders to initiate the incident response to after the exploit phase",
+        "It forces the adversary to adjust their actions on objectives",
+        "It forces an adversary to change every phase of their intrusion in order to achieve their goals in subsequent intrusions"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "What is threat hunting?",
+      "choices": [
+        "Behavior analysis that continually tracks",
+        "Analysis driven by AI using ML to inform defenders",
+        "Next-gen automated monitoring",
+        "Proactively and systematically looking for signs of cyber intrusions"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "A newly disclosed vulnerability can lead to remote code execution, has low attack complexity, does not require any privileges or user interaction to be exploited and impacts confidentiality, integrity and availability to a high degree. What would be the most likely CVSS version 3 score?",
+      "choices": [
+        "10.0",
+        "6.0",
+        "2.0",
+        "1.0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "The Java logging library Log4j contains a critical vulnerability that can lead to remote code execution by logging a specially crafted string. What common software weakness is this an example of?",
+      "choices": [
+        "Cross-site scripting",
+        "Improper input validation",
+        "Cross-site request forgery",
+        "Server-side request forgery"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "A critical vulnerability is announced in a very popular Java software library. A patch is available, but there are rumours going on Twitter about the patch not actually fixing the flaw. You are an MSSP running 24/7 SOC services and managing firewalls and IDPS systems for your customers. Which of these actions would you prioritise first for your team to start working on:",
+      "choices": [
+        "Create a threat advisory for your customers",
+        "Apply the patch to your customers systems",
+        "Investigate if any of your own systems are affected by the vulnerability",
+        "Initiate threat hunting on historical logs to figure out if any of your customers have been exploited"
+      ],
+      "answerIndex": 2
+    }
+  ]
+}

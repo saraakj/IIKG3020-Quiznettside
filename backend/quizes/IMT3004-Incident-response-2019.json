@@ -1,0 +1,207 @@
+{
+  "id": "IMT3004-Incident-Response-2019",
+  "title": "Eksamen IMT3004 (2019) — Multiple Choice Questions (20 points)",
+  "description": "Multiple Choice Questions from the IMT3004 exam 2019. Use for practice and self-testing.",
+  "questions": [
+    {
+      "question": "What comes first of these actions in the incident response life cycle?",
+      "choices": [
+        "Preparation",
+        "Detection & Analysis",
+        "Containment, Eradication & Recovery",
+        "Post-Incident Activity"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is the most correct definition of incident response out of these?",
+      "choices": [
+        "Responding to unexpected activities on computer hosts or the network",
+        "A set of procedures that commence when an incident is detected",
+        "A set of preventive controls that prevent incidents from happening",
+        "Detection and analysis of suspicious network traffic"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "What initial attack vector was used in the 2019 ransomware attack on Norsk Hydro?",
+      "choices": [
+        "Spear phishing",
+        "Watering hole",
+        "Physical access",
+        "Embedded device 0day"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which malware attributed to the Sandworm threat actor was used in the cyberattack against the power grid in Ukraine in December 2015?",
+      "choices": [
+        "Wannacry",
+        "Notpetya",
+        "Cryptolocker",
+        "BlackEnergy 3"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "Which CSIRT organizational model describes a team that serves a constituency belonging to other organizations?",
+      "choices": [
+        "Internal distributed CSIRT",
+        "Internal centralized CSIRT",
+        "Internal combined distributed and centralized CSIRT",
+        "Coordinating CSIRT"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "Which of these CSIRT services is a proactive service?",
+      "choices": [
+        "Incident handling",
+        "Vulnerability handling",
+        "Technology watch",
+        "Artifact handling"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "What list maintained by MITRE describes common software security weakness types?",
+      "choices": [
+        "CWE",
+        "CVSS",
+        "CVS",
+        "CVE"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which TLP marking should be used for sharing information with peers and partner organizations within their sector or community, but not via publicly accessible channels?",
+      "choices": [
+        "TLP WHITE",
+        "TLP GREEN",
+        "TLP AMBER",
+        "TLP RED"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which of these incident indicators is an example of a definite indicator of an actual incident?",
+      "choices": [
+        "Notification from IDS",
+        "Presence of unfamiliar files",
+        "Unusual system crashes",
+        "Use of dormant accounts"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "Which of these is NOT a containment, eradication or recovery action?",
+      "choices": [
+        "Determine whether an incident has occurred",
+        "Removing malware",
+        "Identify vulnerabilities that were exploited",
+        "Confirm that the affected systems are functioning normally"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which tool is used for monitoring files for unauthorized access?",
+      "choices": [
+        "Signature-based NIDPS",
+        "Anomaly-based NIDPS",
+        "Honeytokens",
+        "Network-based IDPS"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "What can ISPs do to prevent IP source address spoofing commonly used in DDoS attacks?",
+      "choices": [
+        "Monitor BGP traffic to detect IP hijacking",
+        "Implement bogon filtering",
+        "Implement network ingress and egress filtering",
+        "Monitor DDoS backscatter traffic in darknets"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "What is the most important step you can do to prepare to respond to a ransomware incident?",
+      "choices": [
+        "Coordinating with Internet Service Provider",
+        "User awareness programs",
+        "Maintain functional backups",
+        "Use antivirus software"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "How can passive DNS be used in incident response?",
+      "choices": [
+        "Discover associations among threat actors and track and block their activity",
+        "For sharing of indicators between CSIRTs to implement better IDS signatures",
+        "Anonymizing of IP addresses before uploading samples to Virus Total",
+        "As a sandbox for dynamic malware analysis"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is an example of an atomic indicator?",
+      "choices": [
+        "Hash value",
+        "IDS rule",
+        "Regular expression",
+        "IP address"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "In what phase in the intrusion kill chain model will antivirus be able to disrupt the intrusion?",
+      "choices": [
+        "Reconnaissance",
+        "Weaponization",
+        "Installation",
+        "Command and Control"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which of these tools is used for sharing indicators of compromise between CSIRTS?",
+      "choices": [
+        "DNSDB",
+        "Splunk",
+        "MISP",
+        "Passive DNS"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which of these indicators are most challenging for an attacker to replace, according to the pyramid of pain model?",
+      "choices": [
+        "Tools",
+        "TTPs",
+        "Domain names",
+        "Network/Host artifacts"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which of these indicators gives the defender the highest knowledge quality, according to the CTI matrix model?",
+      "choices": [
+        "Footprint",
+        "Arsenal",
+        "Tradecraft",
+        "Tools"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "What is the goal for the defender when using the cyber kill chain model?",
+      "choices": [
+        "Stop the intrusion further down the kill chain",
+        "Implement courses of action right of hack",
+        "Move the detection and analysis up the kill chain",
+        "Stop the intrusion left of hack"
+      ],
+      "answerIndex": 2
+    }
+  ]
+}

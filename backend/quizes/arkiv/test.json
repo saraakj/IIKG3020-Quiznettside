@@ -1,0 +1,27 @@
+{
+  "id": "test",
+  "title": "Test",
+  "description": "Bare for testing",
+  "questions": [
+    {
+      "question": "What comes first of these actions in the incident handling life cycle?",
+      "choices": [
+        "Vulnerability report",
+        "Obtain contact information",
+        "Feil",
+        "Riktig"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "What should be the first step when building a CSIRT?",
+      "choices": [
+        "Determine the CSIRT strategic plan",
+        "Feil",
+        "Riktig",
+        "Design the CSIRT vision"
+      ],
+      "answerIndex": 2
+    }
+]
+}

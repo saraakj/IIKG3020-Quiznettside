@@ -1,0 +1,457 @@
+{
+  "id": "IIKG3020-Incident-Response-2023",
+  "title": "Eksamen IIKG3020 (2023) — Multiple Choice Questions (45 points)",
+  "description": "Multiple Choice Questions from the IIKG3020 exam 2023. Use for practice and self-testing.",
+  "questions": [
+    {
+      "question": "What is DETT&CT?",
+      "choices": [
+        "An update to ATT&CK developed by MITRE",
+        "A scoring system for implementation of ATT&CK IDS signatures",
+        "The red team version of ATT&CK",
+        "A framework assisting blue teams to map their detection coverage to ATT&CK"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "Which of these is not an incident containment step?",
+      "choices": [
+        "Restore data from backups",
+        "Taking down a server",
+        "Reconfiguring a firewall to block traffic",
+        "Disabling compromised user accounts"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which if these documents contains the most detailed steps on how to perform incident response?",
+      "choices": [
+        "Crisis Management Plan",
+        "Incident Response Plan",
+        "Runbooks",
+        "Playbooks"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Who should be on top of the list of who to communicate with in a DDoS incident?",
+      "choices": [
+        "Law enforcement agencies",
+        "Media",
+        "Other incident response teams",
+        "Internet Service Provider"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "What is the main goal of campaign analysis according to the intrusion kill chain model?",
+      "choices": [
+        "Reducing the intruder dwell time",
+        "To determine the intruders tactics, techniques, and procedures (TTP)",
+        "Intruder attribution",
+        "To prepare for legal action against intruders"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "In the CVD process, who is responsible for preparing a fix for the vulnerability?",
+      "choices": [
+        "Both the reporter and the vendor together",
+        "The reporter",
+        "The vendor",
+        "The coordinator"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which TLP marking should be used for sharing information that should only be spread on a need-to-know basis within an organization?",
+      "choices": [
+        "TLP AMBER",
+        "TLP GREEN",
+        "TLP AMBER + STRICT",
+        "TLP RED"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which of these is a definite indicator of an incident?",
+      "choices": [
+        "Notification of partner or peer",
+        "Notification from user",
+        "Presence of unexpected new accounts",
+        "Notification from IDS"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is the most efficient way of monitoring files and directories for unexpected changes?",
+      "choices": [
+        "Honeynet",
+        "HIDPS",
+        "User reports",
+        "Honeytokens"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Who would be the main consumers of tactical threat intelligence in the organization?",
+      "choices": [
+        "SOC/IR staff",
+        "Management and the board",
+        "Sysadmins and architects",
+        "Defenders"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which of these is an example of a CSIRT reactive service?",
+      "choices": [
+        "Development of security tools",
+        "Technology watch",
+        "Risk analysis",
+        "Artifact handling"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "On what time scale would a cyber threat analyst typically perform \"Outside-the-box\" analytics?",
+      "choices": [
+        "Seconds-Minutes",
+        "Hours-Days",
+        "Minutes-Hours",
+        "Hours-Months"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which of these is not a MITRE ATT&CK Tactic category?",
+      "choices": [
+        "Lateral Movement",
+        "Reconnaisance",
+        "Privilege Escalation",
+        "Exfiltration"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "What does \"dwell time\" refer to?",
+      "choices": [
+        "The average amount of time an attacker spends in the reconnaissance phase before getting initial access to a system",
+        "The average amount of time a threat actor spends inside a system before they get detected by incident responders",
+        "The average amount of time an loT device is part of a DDoS botnet before it gets cleaned up",
+        "The average amount of time it takes for an incident handler to resolve an incident"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "What is the advantage of intrusion reconstruction using the cyber kill chain from the defender's point of view?",
+      "choices": [
+        "It forces an adversary to change every phase of their intrusion in order to achieve their goals in subsequent intrusions",
+        "It enables defenders to initiate the incident response to after the exploit phase",
+        "It forces the adversary to adjust their actions on objectives",
+        "It enables the defenders to move their detection and analysis to the latter phases of the kill chain"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "When should you develop the actual incident response plan in the IR planning process?",
+      "choices": [
+        "After you develop the IR planning policy but before you organise the CSIRT",
+        "After you have created the IR strategies and procedures",
+        "Before you integrate the BIA",
+        "This should be the first step in the process"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "How can MISP be used in incident response?",
+      "choices": [
+        "For pivoting indicators of compromise during threat hunting",
+        "As a sandbox for dynamic malware analysis",
+        "For sharing of indicators between CSIRTs to implement better hypotheses for threat hunting",
+        "As a tool for reverse engineering"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which catalog should you use to find an overview of vulnerabilities known to be exploited by ransomware campaigns?",
+      "choices": [
+        "NVD",
+        "CVE",
+        "KEV",
+        "CWE"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Why would an anomaly-based IDS be better at detection of zero-day attacks than a signature based IDS?",
+      "choices": [
+        "Anomaly-based detection can start working as soon as the APT weaponizes the vulnerability",
+        "Anomaly-based detection can start working from \"Day 0\"",
+        "Anomaly-based detection might detect the exploit as soon as it is being used",
+        "Signature-based detection is only effective after a patch has been released"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "What is the most important step in the threat intelligence cycle?",
+      "choices": [
+        "Analysis and production",
+        "Collection",
+        "Dissemination",
+        "Planning and direction"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "Why has the \"dwell time\" as reported by Mandiant decreased significantly the last few years?",
+      "choices": [
+        "Increased information sharing among responders has led to more efficient response",
+        "Incident responders have become significantly more effective at detecting intrusions",
+        "Nation state threat actors have become less stealthy",
+        "The amount of incident response to ransomware attacks has increased significantly vs APT-style attacks"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "How can passive DNS be used in incident response?",
+      "choices": [
+        "Implement allow lists based on legitimate user activity",
+        "Discover which users clicked on a malicious link",
+        "Uncover all domains using the same name server infrastructure used by a “known bad” domain",
+        "Track web browsing activity of insider threat actors"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "A newly disclosed vulnerability requires physical access, has high attack complexity, requires escalated privileges and user interaction to be exploited and impacts confidentiality, integrity and availability to a high degree. What would be the most likely CVSS version 3 score?",
+      "choices": [
+        "1.0",
+        "10.0",
+        "2.0",
+        "6.0"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "What is the main advantage of using an intelligence feedback loop in computer network defense?",
+      "choices": [
+        "It helps defenders fixing the flaws that resulted in the compromise by root cause analysis",
+        "It increases the adversary’s likelihood of success with each subsequent intrusion attempt",
+        "It increases the defender’s likelihood of discovering new vulnerabilities in their own systems with each subsequent intrusion attempt",
+        "It enables defenders to establish a state of information superiority"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "What is on top of the pyramid of pain?",
+      "choices": [
+        "The type of indicator that would cause the most pain to an adversary if you as a defender deny that indicator to them",
+        "The most common indicators",
+        "The least valuable indicators",
+        "Indicators that are the easiest to respond to"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "In the current cyber threat landscape, which threat actor category has the highest sophistication, resource level and commitment?",
+      "choices": [
+        "Crime-syndicates",
+        "Hacktivists",
+        "Nation states",
+        "Cyber terrorists"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "In what phase in the intrusion kill chain model is patching a useful course of action?",
+      "choices": [
+        "Exploitation",
+        "Reconnaissance",
+        "Command and control",
+        "Installation"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is the least complex IPS response technique?",
+      "choices": [
+        "Changing the security environment by automatic reconfigurations",
+        "Change the attack’s content by removing or replacing malicious files",
+        "Act as a proxy and normalize incoming packets in-line",
+        "Stopping the attack itself by terminating network connections or user sessions"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "What kind of response actions would be more challenging to automate with a SOAR?",
+      "choices": [
+        "Gathering context to alerts from users",
+        "Enrich and prioritise alerts",
+        "Terminate network connections",
+        "Disable user accounts"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is an example of an atomic indicator?",
+      "choices": [
+        "IDS rule",
+        "IP address",
+        "Regular expression",
+        "Hash value"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "What can organisations do to avoid becoming part of the problem and misused as reflectors in DDoS attacks on others?",
+      "choices": [
+        "Monitor DDoS backscatter traffic in darknets",
+        "Stress-test own infrastructure to determine bottle-necks",
+        "Deploy anti-spoofing on all network edges",
+        "Monitor BGP traffic to detect IP hijacking"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which CSIRT organizational model is most commonly found in large, distributed organisations such as multinational corporations?",
+      "choices": [
+        "Internal centralized CSIRT",
+        "Security team model",
+        "Coordinating CSIRT",
+        "Distributed CSIRT"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "Which one of these claims related to legal frameworks for CSIRT information sharing is true?",
+      "choices": [
+        "GDPR is not applicable to CSIRT information sharing",
+        "Processing of personal data such as IP addresses is allowed for the purposes of ensuring network and information security",
+        "NIS2 gives a weaker legal provision for CSIRT information sharing than GDPR",
+        "GDPR does not allow CSIRTs to share information containing personal data"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "What best describes threat hunting?",
+      "choices": [
+        "\"IOC-free\" threat analysis",
+        "Analysis driven by AI using ML to inform defenders",
+        "Next-gen automated monitoring",
+        "Behavior analysis that continually tracks"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which of these tools is typically used for artifact analysis?",
+      "choices": [
+        "MISP",
+        "Virustotal",
+        "pDNS",
+        "Domaintools"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "What is the most overlooked critical step when preparing to respond to a ransomware incident?",
+      "choices": [
+        "No way for users to report suspicious emails",
+        "Not maintaining a hard copy of contact lists",
+        "Not testing backup recovery processes",
+        "No malware containment processes described"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "What is on top of the Incident Response Hierarchy of Needs?",
+      "choices": [
+        "Asset Inventory",
+        "Threat Intelligence",
+        "Threat Hunting",
+        "Information Sharing"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "Which of these measures do you think would be the least accurate performance indicator for measuring CSIRT effectiveness?",
+      "choices": [
+        "Number of incidents reported per year",
+        "Number of hours spent on resolving incidents per team member per year",
+        "Staff turnover numbers",
+        "Average time for incident resolution"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is usually the purpose of filtering IDS alarms?",
+      "choices": [
+        "Minimise false negatives",
+        "Minimise false positives",
+        "Minimise true negatives",
+        "Minimise true positives"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "The “Heartbleed” bug was a serious vulnerability in the OpenSSL cryptographic software library that was published in 2014. When exploited it led to memory leaks that could contain private key material. At the time of publication, it was not known if this bug had already been exploited in the wild. How could analysts find out if this bug had already been exploited in their networks before patches were available and applied?",
+      "choices": [
+        "Threat hunting activities in historical logs",
+        "Implementing IDS/IPS rules",
+        "Setting up block lists to stop exploit attempts",
+        "Setting up honeypots to entrap attackers"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which of the following incident handling life cycle models involves the most steps?",
+      "choices": [
+        "The NIST incident response life cycle",
+        "The MITRE ATT&CK life cycle",
+        "The CERT/CC incident handling life cycle",
+        "The ENISA incident resolution cycle"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which of these is mostly used to detect insider threats?",
+      "choices": [
+        "NIDS",
+        "SIEM",
+        "HIDS",
+        "UEBA"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "What is the first and most important step that CERT/CC recommends when starting the process of implementing a CSIRT?",
+      "choices": [
+        "Gather relevant information",
+        "Design the CSIRT vision",
+        "Obtain management support and buy-in",
+        "Determine the CSIRT strategic plan"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "What comes last of these in the Mandiant cyber attack life cycle?",
+      "choices": [
+        "Maintain presence",
+        "Escalate privileges",
+        "Internal recon",
+        "Establish foothold"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which of these acronyms represent the most automated type of detection and response tools?",
+      "choices": [
+        "MDR",
+        "EDR",
+        "SIEM",
+        "SOAR"
+      ],
+      "answerIndex": 3
+    }
+  ]
+}
