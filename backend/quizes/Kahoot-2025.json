@@ -6,9 +6,9 @@
     {
       "question": "Which of these actions is NOT a containment, eradication or recovery action?",
       "choices": [
-        "reporting the incidentreporting the incident",
-        "removing malwareremoving malware",
-        "identify vulnerabilities that were exploitedidentify vulnerabilities that were exploited",
+        "reporting the incident",
+        "removing malware",
+        "identify vulnerabilities that were exploited",
         "confirm that the affected systems are functioning normally"
       ],
       "answerIndex": 0
@@ -16,9 +16,9 @@
     {
       "question": "Which of these CSIRT services is a proactive service?",
       "choices": [
-        "vulnerability handlingvulnerability handling",
+        "vulnerability handling",
         "technology watch",
-        "alerts and warningsalerts and warnings",
+        "alerts and warnings",
         "artifact analysis"
       ],
       "answerIndex": 1
@@ -176,7 +176,7 @@
     {
       "question": "What is the distinction between an ATT&CK technique and an IOC?",
       "choices": [
-        "Many ATT&CK techniques are legitimate system functions, while IOCs are notMany ATT&CK techniques are legitimate system functions, while IOCs are not",
+        "Many ATT&CK techniques are legitimate system functions, while IOCs are not",
         "ATT&CK techniques cannot be used as input to intrusion detection signatures",
         "IOCs have less utility for defenders",
         "IOCs are less dependent on specific malware or hacker tools"
