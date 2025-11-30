@@ -19,3 +19,5 @@ npm run dev
 ```
 
 Frontend will call `http://localhost:4000/api/ping` to check backend.
+
+Fin the website running on localhost:5173 to start using the website
